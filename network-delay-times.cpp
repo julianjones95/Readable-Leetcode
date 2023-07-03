@@ -14,11 +14,7 @@ public:
         // Dijkstra's Algorithm:
 
         // Create a minHeap
-        priority_queue <
-            pair<int,int>,
-            vector<pair<int,int>>,
-            greater<pair<int,int>>
-            > minHeap;
+        priority_queue <pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> minHeap;
 
         // Create a vector for distance
         vector<int> distance(n+1, INT_MAX);
